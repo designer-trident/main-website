@@ -35,7 +35,7 @@ export default function CyborgMonkCaseStudy() {
       <section className="h-screen relative flex flex-col justify-center items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/Cyborgmonk/Indian Monk Portfolio.png" 
+            src="/cyborgmonk/indian-monk-portfolio.png" 
             alt="Cyborg Monk Hero Portfolio" 
             fill 
             className="object-cover opacity-50 scale-105"
@@ -104,19 +104,19 @@ export default function CyborgMonkCaseStudy() {
           <div className="lg:col-span-7 grid grid-cols-2 gap-6 relative">
             <motion.div style={{ y: y1 }} className="flex flex-col gap-6 pt-12">
               <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-white/10 shadow-2xl group">
-                <Image src="/Cyborgmonk/Sketchs of INDIAN Monk Hero.png 1.png" alt="Sketch 1" fill className="object-cover transition-transform duration-700 group-hover:scale-105" />
+                <Image src="/cyborgmonk/sketchs-of-indian-monk-hero.png-1.png" alt="Sketch 1" fill className="object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
               </div>
               <div className="relative aspect-square rounded-2xl overflow-hidden border border-white/10 shadow-2xl group">
-                <Image src="/Cyborgmonk/INDIAN Monk Hero 1.png" alt="Hero Render 1" fill className="object-cover transition-transform duration-700 group-hover:scale-105" />
+                <Image src="/cyborgmonk/indian-monk-hero-1.png" alt="Hero Render 1" fill className="object-cover transition-transform duration-700 group-hover:scale-105" />
               </div>
             </motion.div>
             <motion.div style={{ y: y2 }} className="flex flex-col gap-6 -mt-24">
               <div className="relative aspect-square rounded-2xl overflow-hidden border border-white/10 shadow-2xl group">
-                <Image src="/Cyborgmonk/INDIAN Monk Hero 2.png" alt="Hero Render 2" fill className="object-cover transition-transform duration-700 group-hover:scale-105" />
+                <Image src="/cyborgmonk/indian-monk-hero-2.png" alt="Hero Render 2" fill className="object-cover transition-transform duration-700 group-hover:scale-105" />
               </div>
               <div className="relative aspect-[3/4] rounded-2xl overflow-hidden border border-white/10 shadow-2xl group">
-                <Image src="/Cyborgmonk/Sketchs of INDIAN Monk Hero.png 2.png" alt="Sketch 2" fill className="object-cover transition-transform duration-700 group-hover:scale-105" />
+                <Image src="/cyborgmonk/sketchs-of-indian-monk-hero.png-2.png" alt="Sketch 2" fill className="object-cover transition-transform duration-700 group-hover:scale-105" />
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
               </div>
             </motion.div>
@@ -158,9 +158,9 @@ export default function CyborgMonkCaseStudy() {
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
           >
             {[
-              { src: "/Cyborgmonk/Front.png", alt: "Front Render", label: "Front Elevation" },
-              { src: "/Cyborgmonk/Right Side.png", alt: "Side Render", label: "Right Profile" },
-              { src: "/Cyborgmonk/Back.png", alt: "Back Render", label: "Posterior Detail" }
+              { src: "/cyborgmonk/front.png", alt: "Front Render", label: "Front Elevation" },
+              { src: "/cyborgmonk/right-side.png", alt: "Side Render", label: "Right Profile" },
+              { src: "/cyborgmonk/back.png", alt: "Back Render", label: "Posterior Detail" }
             ].map((img, idx) => (
               <motion.div key={idx} variants={fadeIn} className="group cursor-crosshair">
                 <div className="relative aspect-[4/5] rounded-xl overflow-hidden border border-white/10 bg-neutral-900 mb-4">
@@ -183,7 +183,7 @@ export default function CyborgMonkCaseStudy() {
              variants={fadeIn}
              className="relative w-full aspect-video md:aspect-[21/9] rounded-2xl overflow-hidden border border-white/10 mt-20 group"
           >
-            <Image src="/Cyborgmonk/INDIAN Monk Hero 3.png" alt="Hero Action" fill className="object-cover transition-transform duration-[2s] group-hover:scale-105" />
+            <Image src="/cyborgmonk/indian-monk-hero-3.png" alt="Hero Action" fill className="object-cover transition-transform duration-[2s] group-hover:scale-105" />
             <div className="absolute inset-0 flex items-center justify-center bg-black/30 group-hover:bg-black/10 transition-colors duration-700">
               <div className="text-center translate-y-8 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 delay-100">
                 <span className="text-white font-heading text-2xl uppercase tracking-[0.3em]">Action Stance</span>
@@ -212,22 +212,22 @@ export default function CyborgMonkCaseStudy() {
 
         <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
            <div className="relative rounded-xl overflow-hidden border border-white/10 break-inside-avoid shadow-xl group">
-             <Image src="/Cyborgmonk/Final Action Hero.png" alt="Final Action" width={800} height={1000} className="w-full h-auto group-hover:scale-105 transition-transform duration-700" />
+             <Image src="/cyborgmonk/final-action-hero.png" alt="Final Action" width={800} height={1000} className="w-full h-auto group-hover:scale-105 transition-transform duration-700" />
            </div>
            <div className="relative rounded-xl overflow-hidden border border-white/10 break-inside-avoid shadow-xl group">
-             <Image src="/Cyborgmonk/T-shirt Print Final Action Hero.png" alt="T-Shirt Print" width={800} height={800} className="w-full h-auto group-hover:scale-105 transition-transform duration-700" />
+             <Image src="/cyborgmonk/t-shirt-print-final-action-hero.png" alt="T-Shirt Print" width={800} height={800} className="w-full h-auto group-hover:scale-105 transition-transform duration-700" />
            </div>
            <div className="relative rounded-xl overflow-hidden border border-white/10 break-inside-avoid shadow-xl group">
-             <Image src="/Cyborgmonk/Monk Power Partten.png" alt="Power Pattern" width={800} height={600} className="w-full h-auto group-hover:scale-105 transition-transform duration-700" />
+             <Image src="/cyborgmonk/monk-power-partten.png" alt="Power Pattern" width={800} height={600} className="w-full h-auto group-hover:scale-105 transition-transform duration-700" />
            </div>
            <div className="relative rounded-xl overflow-hidden border border-white/10 break-inside-avoid shadow-xl group">
-             <Image src="/Cyborgmonk/8.png" alt="Exploration 8" width={800} height={1200} className="w-full h-auto group-hover:scale-105 transition-transform duration-700" />
+             <Image src="/cyborgmonk/8.png" alt="Exploration 8" width={800} height={1200} className="w-full h-auto group-hover:scale-105 transition-transform duration-700" />
            </div>
            <div className="relative rounded-xl overflow-hidden border border-white/10 break-inside-avoid shadow-xl group">
-             <Image src="/Cyborgmonk/3.png" alt="Exploration 3" width={800} height={900} className="w-full h-auto group-hover:scale-105 transition-transform duration-700" />
+             <Image src="/cyborgmonk/3.png" alt="Exploration 3" width={800} height={900} className="w-full h-auto group-hover:scale-105 transition-transform duration-700" />
            </div>
            <div className="relative rounded-xl overflow-hidden border border-white/10 break-inside-avoid shadow-xl group">
-             <Image src="/Cyborgmonk/1.png" alt="Exploration 1" width={800} height={1000} className="w-full h-auto group-hover:scale-105 transition-transform duration-700" />
+             <Image src="/cyborgmonk/1.png" alt="Exploration 1" width={800} height={1000} className="w-full h-auto group-hover:scale-105 transition-transform duration-700" />
            </div>
         </div>
       </section>

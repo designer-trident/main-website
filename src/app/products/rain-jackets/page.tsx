@@ -47,7 +47,7 @@ export default function RainJacketsPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {k2Images.map((num, idx) => {
-              const imagePath = `/Rain Jackets/K2 Rain jackets 1080 x 1350 ${num}.png`;
+              const imagePath = `/rain-jackets/k2-rain-jackets-1080-x-1350-${num}.png`;
               return (
                 <motion.div 
                   key={num}
@@ -94,7 +94,7 @@ export default function RainJacketsPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {kazaImages.map((num, idx) => {
-              const imagePath = `/Rain Jackets/Kaza rain jacket 1080 X 1350 ${num}.png`;
+              const imagePath = `/rain-jackets/kaza-rain-jacket-1080-x-1350-${num}.png`;
               return (
                 <motion.div 
                   key={num}

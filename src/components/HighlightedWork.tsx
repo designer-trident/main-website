@@ -25,7 +25,7 @@ export default function HighlightedWork() {
             >
               {/* Actual Image */}
               <Image 
-                src="/Cyborgmonk/INDIAN Monk Hero 2.png" 
+                src="/cyborgmonk/indian-monk-hero-2.png" 
                 alt="Indian Cyborg Monk Hero" 
                 fill 
                 className="object-cover object-center opacity-80 group-hover:opacity-100 transition-opacity duration-700"
