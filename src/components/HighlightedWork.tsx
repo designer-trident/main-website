@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
+import { getAssetUrl } from "@/lib/utils";
 
 export default function HighlightedWork() {
   return (
@@ -25,7 +26,7 @@ export default function HighlightedWork() {
             >
               {/* Actual Image */}
               <Image 
-                src="/cyborgmonk/indian-monk-hero-2.png" 
+                src={getAssetUrl("/cyborgmonk/indian-monk-hero-2.png")} 
                 alt="Indian Cyborg Monk Hero" 
                 fill 
                 className="object-cover object-center opacity-80 group-hover:opacity-100 transition-opacity duration-700"

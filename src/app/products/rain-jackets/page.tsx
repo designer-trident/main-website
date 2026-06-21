@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { getAssetUrl } from "@/lib/utils";
 
 const k2Images = [
   "1.2", "2.1", "3.1", "4.1", "5.1", "6.2"
@@ -47,7 +48,7 @@ export default function RainJacketsPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {k2Images.map((num, idx) => {
-              const imagePath = `/rain-jackets/k2-rain-jackets-1080-x-1350-${num}.png`;
+              const imagePath = getAssetUrl(`/rain-jackets/k2-rain-jackets-1080-x-1350-${num}.png`);
               return (
                 <motion.div 
                   key={num}
@@ -94,7 +95,7 @@ export default function RainJacketsPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {kazaImages.map((num, idx) => {
-              const imagePath = `/rain-jackets/kaza-rain-jacket-1080-x-1350-${num}.png`;
+              const imagePath = getAssetUrl(`/rain-jackets/kaza-rain-jacket-1080-x-1350-${num}.png`);
               return (
                 <motion.div 
                   key={num}
