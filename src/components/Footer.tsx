@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ArrowUpRight, Mail } from "lucide-react";
 
 export default function Footer() {

@@ -17,7 +17,7 @@ export default function HighlightedWork() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <Link href="/work/cyborg-monk" className="group block col-span-1 md:col-span-2 relative overflow-hidden rounded-2xl aspect-[16/9] md:aspect-[21/9] bg-neutral-900 border border-white/10 shadow-2xl">
+          <Link href="/products/cyborg-monk" className="group block col-span-1 md:col-span-2 relative overflow-hidden rounded-2xl aspect-[16/9] md:aspect-[21/9] bg-neutral-900 border border-white/10 shadow-2xl">
             <motion.div 
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.8, ease: "easeOut" }}

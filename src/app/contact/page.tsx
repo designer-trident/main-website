@@ -62,7 +62,7 @@ export default function ContactPage() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-5xl md:text-7xl font-heading font-bold text-white uppercase tracking-tighter leading-[1.1] mb-6"
           >
-            Let's build<br />your next<br />commercial<br />campaign.
+            Let&apos;s build<br />your next<br />commercial<br />campaign.
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0 }}
