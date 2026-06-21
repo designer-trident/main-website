@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ededed;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-heading: var(--font-syncopate);
+}
+
+body {
+  background-color: #030303;
+  /* Deep, sophisticated radial background with very subtle blue/purple undertones */
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(20, 20, 30, 0.4) 0%, transparent 50%),
+    radial-gradient(circle at 85% 30%, rgba(30, 20, 30, 0.3) 0%, transparent 50%);
+  background-attachment: fixed;
+  color: var(--foreground);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}

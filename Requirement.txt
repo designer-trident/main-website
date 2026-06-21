@@ -1,0 +1,53 @@
+You are an Expert Full-Stack Developer Agent and UI/UX Architect. Your objective is to scaffold, build, and optimize a premium multi-page Next.js 15 (App Router) portfolio website. 
+
+Execute this build sequentially through the following 5 phases. Do not proceed to the next phase until the current one is complete and functional.
+
+### PHASE 1: Initialization & Global Configuration
+Initialize the repository with the following stack and configure the global layout.
+
+Stack Requirements:
+* Framework: Next.js (App router, TypeScript)
+* Styling: Tailwind CSS
+* Animation: Framer Motion
+* Form Handling: Web3Forms (Native fetch API integration)
+
+Global Theming:
+* Apply a strict Dark Mode, luxury minimal aesthetic. 
+* Background: Deep charcoal to absolute black gradients.
+* Typography: High-contrast sans-serif for headings (e.g., Inter or Syncopate) and readable neutral tones for body text.
+
+### PHASE 2: Global UI Elements & Canvas Micro-interactions
+Build the layout wrapper and interactive elements before routing.
+
+* Navigation: Create a sticky, glassmorphism top navigation bar with links to "Home", "Cyborg Monk", and "Contact".
+* Interactive Canvas Overlay: Implement a global HTML5 Canvas layer rendering a fluid ripple effect tracking mouse velocity. Apply `pointer-events: none` and `z-index: 50` so it sits above backgrounds but below clickable UI. Utilize `requestAnimationFrame` for a 60fps fade-out loop.
+* Footer: Minimalist footer containing a primary outbound link to the Behance profile (https://www.behance.net/KUNAL_IMMIE) and a direct email mailto link.
+
+### PHASE 3: Home Page (Route: `/`)
+Construct the landing page using modular, reusable React components.
+
+* Hero Section Component: Render a massive, cinematic typographic hook. Pre-fill the H1 with: "8+ Years of Commercial Art Direction & Cinematic Visual Storytelling."
+* Sub-hero Copy Component: Add a descriptive paragraph highlighting expertise spanning clothing, outdoor garments, and the automobile sector, utilizing advanced workflows across Photoshop, Illustrator, and AI-driven 4K/8K hyper-realistic generation.
+* Highlighted Work Component: Create a masonry grid or horizontal scroll section. The primary featured card must be "Indian Cyborg Monk". Hook this card up to route to `/work/cyborg-monk`.
+* Tools & Tech Marquee: Add a continuous Framer Motion horizontal marquee displaying tools: "Creative Direction - AI Asset Generation - UI/UX - Commercial Branding - E-commerce Marketing - VN Video Editing".
+
+### PHASE 4: Case Study Page (Route: `/work/cyborg-monk`)
+Architect a cinematic, vertical-scroll storytelling page.
+
+* Asset Mapping: Configure the Next.js `<Image />` components to source directly from the local `/public/Cyborgmonk` and `/public/Cyborgmonk/Behance Post` directories. 
+* Scroll-Triggered Layout: Use Framer Motion `whileInView` hooks. As the user scrolls, fade in distinct sections:
+* Section 1: Character Blueprints & Concept Art.
+* Section 2: High-fidelity rendered assets.
+* Section 3: Placeholders for cinematic transformation video reels.
+* Context Cards: Interleave text blocks discussing the character design process, aesthetic choices, and world-building narrative.
+
+### PHASE 5: Lead Generation Portal (Route: `/contact`)
+Build the conversion engine.
+
+* Layout: Split-screen design. Left side contains a bold CTA: "Let's build your next commercial campaign." Right side contains the form interface.
+* Smart Form Component: Instead of standard dropdowns, use clickable UI pill buttons for the "Service Needed" field. Pre-fill the options: "Brand Identity", "Apparel Design", "E-commerce Campaign", "Product Photography".
+* Input Fields: Name, Work Email, Budget Tier, and Project Brief.
+* Integration: Wire the onSubmit handler to Web3Forms using a fetch request. 
+* Micro-interactions: Implement an animated loading spinner on the submit button and a fluid success state swap upon a 200 OK response.
+
+Begin immediately with Phase 1 and provide the terminal commands required to initialize the environment, followed by the `layout.tsx` and `page.tsx` code for the root directory.
